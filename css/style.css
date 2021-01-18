@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+
+body {
+    font-family: 'Fraunces', serif;
+}
+
+header {
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+.profile-menu {
+    list-style: none;
+    float: right;
+    margin-top: -50px;
+    margin-right: 10px;
+
+}
+
+.profile-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu {
+    text-align: start;
+    list-style: none;
+    border: 1px solid;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: white;
+    box-shadow: 1px 1px;
+    margin-top: 31px;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+}
+
+.dropdown-menu a:hover{
+    background: grey;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+    border-top: 1px solid;
+    font-family: serif;
+}
+
+section {
+    margin: auto;
+    width: 80%;
+}
+
+article {
+    display: inline-block;
+    max-width: 22%;
+    min-width: 200px;
+    width: 200px;
+    height: 500;
+    overflow: hidden;
+    border: 1px solid;
+    padding: 15px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 5px;
+    transition: all .5s;
+}
+
+article:hover {
+    box-shadow: 2px 2px 15px;
+}
+
+article:active {
+    opacity: .4;
+}
+
+.article-image {
+    border: 1px solid;
+    height: 250px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center;
+}
+
+#search-box {
+    margin-top: 15px;
+    margin-bottom: -15px;
+    padding: 15px;
+    display: block;
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.custom-context-menu {
+    position: absolute;
+    display: none;
+    border: 1px solid;
+    background: white;
+    box-shadow: 2px 2px;
+}
+
+.custom-context-menu ul {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-context-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.custom-context-menu li{
+    list-style: none;
+    padding: 10px;
+}
+
+.custom-context-menu li:hover{
+    background: rgb(211, 211, 211);
+}
+
+.hidden {
+    display: none;
+}
